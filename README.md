@@ -3,6 +3,11 @@
 
 An end-to-end Machine Learning pipeline that processes Chest X-ray images to identify pneumonia covid19 and tuberculosis, trains a deep learning classification model, exposes predictions through a **FastAPI backend**, and provides a user-friendly **Streamlit frontend** for inference and monitoring.
 
+## Data source
+https://www.kaggle.com/datasets/jtiptj/chest-xray-pneumoniacovid19tuberculosis?resource=download
+
+## About the Data
+The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Normal/Pneumonia/Covid-19/Tuberculosis). A total of 7135 x-ray images are present.
 ---
 
 ##  **Video Demo**
