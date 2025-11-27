@@ -17,7 +17,7 @@ choice = st.sidebar.selectbox("Navigate", menu)
 # 1. PREDICT
 # --------------------------------------------------------------
 if choice == "Predict":
-    st.header("🔍 Predict TB Condition from X-ray")
+    st.header("🔍 Predict TB and other Conditions from X-ray")
 
     uploaded = st.file_uploader("Upload image", type=["jpg", "png", "jpeg"])
 
